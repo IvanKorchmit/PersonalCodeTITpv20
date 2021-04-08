@@ -112,7 +112,7 @@ def check_code(code): # Функция возвращает Истина, есл
 			return False
 
 	except:
-		print("Failed")
+		print("Ошибка")
 		return False
 def get_info(sx,dat,loc):
 	return f"Это {sx}. Родился в {dat}, в род доме {loc}"
